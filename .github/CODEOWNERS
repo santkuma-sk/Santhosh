@@ -1,0 +1,9 @@
+#Default owner for all files
+@santkuma-sk
+
+#Application code
+/src/* @santkuma-sk #Backend Team
+
+Dockerfile* @santkuma-sk #Devops Team
+
+.github/* @santkuma-sk #Devops Team

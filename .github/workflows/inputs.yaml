@@ -25,7 +25,7 @@ on:
 jobs:
   node:
      runs-on: wsl-linux
-         
+     environment: prod    
      steps:
        - name: Clone code
          uses: actions/checkout@v7

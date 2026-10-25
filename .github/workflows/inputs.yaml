@@ -6,19 +6,19 @@ on:
   workflow_dispatch:
     inputs:
       environment:  
-         description: "Choose the environment to run"
-         required: true
-         default: "development"
-         type:  choice
-         options:
-           - development
-           - production
-       port:
-         description: "choose the port in which application runs"
-         required: true
-         default: "8080"
-         type: choice
-         options:
+        description: "Choose the environment to run"
+        required: true
+        default: "development"
+        type: choice
+        options:
+          - development
+          - production
+      port:
+        description: "choose the port in which application runs"
+        required: true
+        default: "8080"
+        type: choice
+        options:
            - 8080
            - 5000
          

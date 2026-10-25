@@ -1,9 +1,9 @@
 name: Node Basic Pipeline
 
 on:
-  push: 
+  push:
     branches: ["main"]
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   node:
@@ -28,7 +28,7 @@ jobs:
            echo "PORT=5000 >> .env.production
            echo "APP=GHA-NODE-PROD-APP" >> .env.production
            
-        -name: Run the application
+       - name: Run the application
          run: |
             node app.js &
             sleep 5
